@@ -1,14 +1,14 @@
-#########################################################
-# Programmer: Megan Spiers                              #
-#                                                       #
-# Purpose:    This was created to solve the live        #
-#             coding exercise presented by RTS Labs     #
-#                                                       #
-# Task:                                                 #
-#                                                       #
-#                                                       #
-#########################################################
+#####################################################
+# Programmer: Megan Spiers                          #
+#                                                   #
+# Purpose:    This was created to solve the live    #
+#             coding exercise presented by RTS Labs #
+#                                                   #
+# Task: Refer to Cache.java file                    #
+#####################################################
+
 import time
+
 class Cache:
 
     def __init__(self, maxSize):
@@ -49,11 +49,3 @@ class Cache:
 
     def setMaxSize(self, maxSize):
         self.__maxSize = maxSize
-
-
-
-
-
-
-
-
